@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const upgradesToShow = unit.upgrades.filter(upgrade => 
-            upgrade.level >= currentLevel && upgrade.level < desiredLevel
+            upgrade.level > currentLevel && upgrade.level <= desiredLevel
         );
 
         upgradeTableBody.innerHTML = '';
