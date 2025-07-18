@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
         
-        // Refresh dynamic content
+        
         if (Object.keys(unitsData).length > 0) {
             createUnitCards();
         }
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function createUnitCards() {
-        unitSelectionContainer.innerHTML = ''; // Clear existing cards
+        unitSelectionContainer.innerHTML = ''; 
         Object.keys(unitsData).forEach(name => {
             const unit = unitsData[name];
             const card = document.createElement('div');
@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
             card.addEventListener('click', () => selectUnit(name));
             unitSelectionContainer.appendChild(card);
         });
-        // re-apply active class
+        
         if(activeUnit) {
              const activeCard = unitSelectionContainer.querySelector(`.unit-card[data-unit="${activeUnit}"]`);
              if(activeCard) activeCard.classList.add('active');
@@ -102,8 +102,9 @@ document.addEventListener('DOMContentLoaded', () => {
         calculatorSection.classList.remove('hidden');
         unitNameEl.textContent = translations[name];
 
-        // Set up level inputs
+        currentLevelInput.value = currentLevelInput.value || 1;
         currentLevelInput.max = unit.maxLevel - 1;
+        desiredLevelInput.value = desiredLevelInput.value || unit.maxLevel;
         desiredLevelInput.max = unit.maxLevel;
         
         renderTable();
@@ -131,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let totalCost = 0;
         let totalTime = 0;
 
-        // Update table headers with translations
+        
         upgradeTableHead.querySelector('[data-lang-key="level"]').textContent = translations.level;
         upgradeTableHead.querySelector('[data-lang-key="upgradeCost"]').textContent = translations.upgradeCost;
         upgradeTableHead.querySelector('[data-lang-key="upgradeTime"]').textContent = translations.upgradeTime;
@@ -196,8 +197,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function formatTime(hours) {
-    const totalMinutes = Math.round(hours * 60); // переводимо години у хвилини
-    const d = Math.floor(totalMinutes / 1440);   // 1440 = 24 * 60
+    const totalMinutes = Math.round(hours * 60); 
+    const d = Math.floor(totalMinutes / 1440);   
     const h = Math.floor((totalMinutes % 1440) / 60);
     const m = totalMinutes % 60;
 
