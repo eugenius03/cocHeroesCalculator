@@ -1,0 +1,700 @@
+{
+  "icon": "resources/img/barbarianKingIcon.png",
+  "class": "barbarian",
+  "maxLevel": 100,
+  "upgrades": [
+  {
+    "level": 2,
+    "darkElixir": 5000,
+    "time": "2h",
+    "timeInHours": 2,
+    "heroHall": 1
+  },
+  {
+    "level": 3,
+    "darkElixir": 5500,
+    "time": "4h",
+    "timeInHours": 4,
+    "heroHall": 1
+  },
+  {
+    "level": 4,
+    "darkElixir": 6000,
+    "time": "8h",
+    "timeInHours": 8,
+    "heroHall": 1
+  },
+  {
+    "level": 5,
+    "darkElixir": 6500,
+    "time": "10h",
+    "timeInHours": 10,
+    "heroHall": 1
+  },
+  {
+    "level": 6,
+    "darkElixir": 7000,
+    "time": "12h",
+    "timeInHours": 12,
+    "heroHall": 1
+  },
+  {
+    "level": 7,
+    "darkElixir": 7500,
+    "time": "14h",
+    "timeInHours": 14,
+    "heroHall": 1
+  },
+  {
+    "level": 8,
+    "darkElixir": 8000,
+    "time": "16h",
+    "timeInHours": 16,
+    "heroHall": 1
+  },
+  {
+    "level": 9,
+    "darkElixir": 8500,
+    "time": "18h",
+    "timeInHours": 18,
+    "heroHall": 1
+  },
+  {
+    "level": 10,
+    "darkElixir": 10000,
+    "time": "20h",
+    "timeInHours": 20,
+    "heroHall": 1
+  },
+  {
+    "level": 11,
+    "darkElixir": 10500,
+    "time": "22h",
+    "timeInHours": 22,
+    "heroHall": 2
+  },
+  {
+    "level": 12,
+    "darkElixir": 11000,
+    "time": "1d",
+    "timeInHours": 24,
+    "heroHall": 2
+  },
+  {
+    "level": 13,
+    "darkElixir": 11500,
+    "time": "1d",
+    "timeInHours": 24,
+    "heroHall": 2
+  },
+  {
+    "level": 14,
+    "darkElixir": 12000,
+    "time": "1d",
+    "timeInHours": 24,
+    "heroHall": 2
+  },
+  {
+    "level": 15,
+    "darkElixir": 12500,
+    "time": "1d",
+    "timeInHours": 24,
+    "heroHall": 2
+  },
+  {
+    "level": 16,
+    "darkElixir": 13000,
+    "time": "1d",
+    "timeInHours": 24,
+    "heroHall": 2
+  },
+  {
+    "level": 17,
+    "darkElixir": 13500,
+    "time": "1d",
+    "timeInHours": 24,
+    "heroHall": 2
+  },
+  {
+    "level": 18,
+    "darkElixir": 14000,
+    "time": "1d",
+    "timeInHours": 24,
+    "heroHall": 2
+  },
+  {
+    "level": 19,
+    "darkElixir": 14500,
+    "time": "1d",
+    "timeInHours": 24,
+    "heroHall": 2
+  },
+  {
+    "level": 20,
+    "darkElixir": 15000,
+    "time": "1d",
+    "timeInHours": 24,
+    "heroHall": 2
+  },
+  {
+    "level": 21,
+    "darkElixir": 17000,
+    "time": "1d",
+    "timeInHours": 24,
+    "heroHall": 3
+  },
+  {
+    "level": 22,
+    "darkElixir": 19000,
+    "time": "1d",
+    "timeInHours": 24,
+    "heroHall": 3
+  },
+  {
+    "level": 23,
+    "darkElixir": 21000,
+    "time": "1d",
+    "timeInHours": 24,
+    "heroHall": 3
+  },
+  {
+    "level": 24,
+    "darkElixir": 23000,
+    "time": "1d",
+    "timeInHours": 24,
+    "heroHall": 3
+  },
+  {
+    "level": 25,
+    "darkElixir": 25000,
+    "time": "1d",
+    "timeInHours": 24,
+    "heroHall": 3
+  },
+  {
+    "level": 26,
+    "darkElixir": 27000,
+    "time": "2d",
+    "timeInHours": 48,
+    "heroHall": 3
+  },
+  {
+    "level": 27,
+    "darkElixir": 29000,
+    "time": "2d",
+    "timeInHours": 48,
+    "heroHall": 3
+  },
+  {
+    "level": 28,
+    "darkElixir": 31000,
+    "time": "2d",
+    "timeInHours": 48,
+    "heroHall": 3
+  },
+  {
+    "level": 29,
+    "darkElixir": 33000,
+    "time": "2d",
+    "timeInHours": 48,
+    "heroHall": 3
+  },
+  {
+    "level": 30,
+    "darkElixir": 35000,
+    "time": "2d",
+    "timeInHours": 48,
+    "heroHall": 3
+  },
+  {
+    "level": 31,
+    "darkElixir": 37000,
+    "time": "2d12h",
+    "timeInHours": 60,
+    "heroHall": 4
+  },
+  {
+    "level": 32,
+    "darkElixir": 39000,
+    "time": "2d12h",
+    "timeInHours": 60,
+    "heroHall": 4
+  },
+  {
+    "level": 33,
+    "darkElixir": 41000,
+    "time": "2d12h",
+    "timeInHours": 60,
+    "heroHall": 4
+  },
+  {
+    "level": 34,
+    "darkElixir": 43000,
+    "time": "2d12h",
+    "timeInHours": 60,
+    "heroHall": 4
+  },
+  {
+    "level": 35,
+    "darkElixir": 45000,
+    "time": "2d12h",
+    "timeInHours": 60,
+    "heroHall": 4
+  },
+  {
+    "level": 36,
+    "darkElixir": 47000,
+    "time": "3d",
+    "timeInHours": 72,
+    "heroHall": 4
+  },
+  {
+    "level": 37,
+    "darkElixir": 49000,
+    "time": "3d",
+    "timeInHours": 72,
+    "heroHall": 4
+  },
+  {
+    "level": 38,
+    "darkElixir": 51000,
+    "time": "3d",
+    "timeInHours": 72,
+    "heroHall": 4
+  },
+  {
+    "level": 39,
+    "darkElixir": 53000,
+    "time": "3d",
+    "timeInHours": 72,
+    "heroHall": 4
+  },
+  {
+    "level": 40,
+    "darkElixir": 55000,
+    "time": "3d",
+    "timeInHours": 72,
+    "heroHall": 4
+  },
+  {
+    "level": 41,
+    "darkElixir": 58000,
+    "time": "3d12h",
+    "timeInHours": 84,
+    "heroHall": 5
+  },
+  {
+    "level": 42,
+    "darkElixir": 61000,
+    "time": "3d12h",
+    "timeInHours": 84,
+    "heroHall": 5
+  },
+  {
+    "level": 43,
+    "darkElixir": 64000,
+    "time": "3d12h",
+    "timeInHours": 84,
+    "heroHall": 5
+  },
+  {
+    "level": 44,
+    "darkElixir": 67000,
+    "time": "3d12h",
+    "timeInHours": 84,
+    "heroHall": 5
+  },
+  {
+    "level": 45,
+    "darkElixir": 70000,
+    "time": "3d12h",
+    "timeInHours": 84,
+    "heroHall": 5
+  },
+  {
+    "level": 46,
+    "darkElixir": 73000,
+    "time": "4d",
+    "timeInHours": 96,
+    "heroHall": 5
+  },
+  {
+    "level": 47,
+    "darkElixir": 76000,
+    "time": "4d",
+    "timeInHours": 96,
+    "heroHall": 5
+  },
+  {
+    "level": 48,
+    "darkElixir": 79000,
+    "time": "4d",
+    "timeInHours": 96,
+    "heroHall": 5
+  },
+  {
+    "level": 49,
+    "darkElixir": 82000,
+    "time": "4d",
+    "timeInHours": 96,
+    "heroHall": 5
+  },
+  {
+    "level": 50,
+    "darkElixir": 85000,
+    "time": "4d",
+    "timeInHours": 96,
+    "heroHall": 5
+  },
+  {
+    "level": 51,
+    "darkElixir": 88000,
+    "time": "5d",
+    "timeInHours": 120,
+    "heroHall": 6
+  },
+  {
+    "level": 52,
+    "darkElixir": 91000,
+    "time": "5d",
+    "timeInHours": 120,
+    "heroHall": 6
+  },
+  {
+    "level": 53,
+    "darkElixir": 94000,
+    "time": "5d",
+    "timeInHours": 120,
+    "heroHall": 6
+  },
+  {
+    "level": 54,
+    "darkElixir": 97000,
+    "time": "5d",
+    "timeInHours": 120,
+    "heroHall": 6
+  },
+  {
+    "level": 55,
+    "darkElixir": 100000,
+    "time": "5d",
+    "timeInHours": 120,
+    "heroHall": 6
+  },
+  {
+    "level": 56,
+    "darkElixir": 103000,
+    "time": "5d12h",
+    "timeInHours": 132,
+    "heroHall": 6
+  },
+  {
+    "level": 57,
+    "darkElixir": 106000,
+    "time": "5d12h",
+    "timeInHours": 132,
+    "heroHall": 6
+  },
+  {
+    "level": 58,
+    "darkElixir": 109000,
+    "time": "5d12h",
+    "timeInHours": 132,
+    "heroHall": 6
+  },
+  {
+    "level": 59,
+    "darkElixir": 112000,
+    "time": "5d12h",
+    "timeInHours": 132,
+    "heroHall": 6
+  },
+  {
+    "level": 60,
+    "darkElixir": 115000,
+    "time": "5d12h",
+    "timeInHours": 132,
+    "heroHall": 6
+  },
+  {
+    "level": 61,
+    "darkElixir": 119000,
+    "time": "5d18h",
+    "timeInHours": 138,
+    "heroHall": 6
+  },
+  {
+    "level": 62,
+    "darkElixir": 123000,
+    "time": "5d18h",
+    "timeInHours": 138,
+    "heroHall": 6
+  },
+  {
+    "level": 63,
+    "darkElixir": 127000,
+    "time": "5d18h",
+    "timeInHours": 138,
+    "heroHall": 6
+  },
+  {
+    "level": 64,
+    "darkElixir": 131000,
+    "time": "5d18h",
+    "timeInHours": 138,
+    "heroHall": 6
+  },
+  {
+    "level": 65,
+    "darkElixir": 135000,
+    "time": "5d18h",
+    "timeInHours": 138,
+    "heroHall": 6
+  },
+  {
+    "level": 66,
+    "darkElixir": 139000,
+    "time": "6d",
+    "timeInHours": 144,
+    "heroHall": 7
+  },
+  {
+    "level": 67,
+    "darkElixir": 143000,
+    "time": "6d",
+    "timeInHours": 144,
+    "heroHall": 7
+  },
+  {
+    "level": 68,
+    "darkElixir": 147000,
+    "time": "6d",
+    "timeInHours": 144,
+    "heroHall": 7
+  },
+  {
+    "level": 69,
+    "darkElixir": 151000,
+    "time": "6d",
+    "timeInHours": 144,
+    "heroHall": 7
+  },
+  {
+    "level": 70,
+    "darkElixir": 155000,
+    "time": "6d",
+    "timeInHours": 144,
+    "heroHall": 7
+  },
+  {
+    "level": 71,
+    "darkElixir": 160000,
+    "time": "6d12h",
+    "timeInHours": 156,
+    "heroHall": 7
+  },
+  {
+    "level": 72,
+    "darkElixir": 165000,
+    "time": "6d12h",
+    "timeInHours": 156,
+    "heroHall": 7
+  },
+  {
+    "level": 73,
+    "darkElixir": 170000,
+    "time": "6d12h",
+    "timeInHours": 156,
+    "heroHall": 7
+  },
+  {
+    "level": 74,
+    "darkElixir": 175000,
+    "time": "6d12h",
+    "timeInHours": 156,
+    "heroHall": 7
+  },
+  {
+    "level": 75,
+    "darkElixir": 180000,
+    "time": "6d12h",
+    "timeInHours": 156,
+    "heroHall": 7
+  },
+  {
+    "level": 76,
+    "darkElixir": 185000,
+    "time": "7d",
+    "timeInHours": 168,
+    "heroHall": 8
+  },
+  {
+    "level": 77,
+    "darkElixir": 190000,
+    "time": "7d",
+    "timeInHours": 168,
+    "heroHall": 8
+  },
+  {
+    "level": 78,
+    "darkElixir": 195000,
+    "time": "7d",
+    "timeInHours": 168,
+    "heroHall": 8
+  },
+  {
+    "level": 79,
+    "darkElixir": 200000,
+    "time": "7d",
+    "timeInHours": 168,
+    "heroHall": 8
+  },
+  {
+    "level": 80,
+    "darkElixir": 205000,
+    "time": "7d",
+    "timeInHours": 168,
+    "heroHall": 8
+  },
+  {
+    "level": 81,
+    "darkElixir": 210000,
+    "time": "7d12h",
+    "timeInHours": 180,
+    "heroHall": 9
+  },
+  {
+    "level": 82,
+    "darkElixir": 215000,
+    "time": "7d12h",
+    "timeInHours": 180,
+    "heroHall": 9
+  },
+  {
+    "level": 83,
+    "darkElixir": 220000,
+    "time": "7d12h",
+    "timeInHours": 180,
+    "heroHall": 9
+  },
+  {
+    "level": 84,
+    "darkElixir": 225000,
+    "time": "7d12h",
+    "timeInHours": 180,
+    "heroHall": 9
+  },
+  {
+    "level": 85,
+    "darkElixir": 230000,
+    "time": "7d12h",
+    "timeInHours": 180,
+    "heroHall": 9
+  },
+  {
+    "level": 86,
+    "darkElixir": 240000,
+    "time": "8d",
+    "timeInHours": 192,
+    "heroHall": 9
+  },
+  {
+    "level": 87,
+    "darkElixir": 250000,
+    "time": "8d",
+    "timeInHours": 192,
+    "heroHall": 9
+  },
+  {
+    "level": 88,
+    "darkElixir": 260000,
+    "time": "8d",
+    "timeInHours": 192,
+    "heroHall": 9
+  },
+  {
+    "level": 89,
+    "darkElixir": 270000,
+    "time": "8d",
+    "timeInHours": 192,
+    "heroHall": 9
+  },
+  {
+    "level": 90,
+    "darkElixir": 280000,
+    "time": "8d",
+    "timeInHours": 192,
+    "heroHall": 9
+  },
+  {
+    "level": 91,
+    "darkElixir": 290000,
+    "time": "8d",
+    "timeInHours": 192,
+    "heroHall": 10
+  },
+  {
+    "level": 92,
+    "darkElixir": 300000,
+    "time": "8d",
+    "timeInHours": 192,
+    "heroHall": 10
+  },
+  {
+    "level": 93,
+    "darkElixir": 310000,
+    "time": "8d",
+    "timeInHours": 192,
+    "heroHall": 10
+  },
+  {
+    "level": 94,
+    "darkElixir": 320000,
+    "time": "8d",
+    "timeInHours": 192,
+    "heroHall": 10
+  },
+  {
+    "level": 95,
+    "darkElixir": 330000,
+    "time": "8d",
+    "timeInHours": 192,
+    "heroHall": 10
+  },
+  {
+    "level": 96,
+    "darkElixir": 340000,
+    "time": "8d",
+    "timeInHours": 192,
+    "heroHall": 11
+  },
+  {
+    "level": 97,
+    "darkElixir": 350000,
+    "time": "8d",
+    "timeInHours": 192,
+    "heroHall": 11
+  },
+  {
+    "level": 98,
+    "darkElixir": 360000,
+    "time": "8d",
+    "timeInHours": 192,
+    "heroHall": 11
+  },
+  {
+    "level": 99,
+    "darkElixir": 370000,
+    "time": "8d",
+    "timeInHours": 192,
+    "heroHall": 11
+  },
+  {
+    "level": 100,
+    "darkElixir": 380000,
+    "time": "8d",
+    "timeInHours": 192,
+    "heroHall": 11
+  }
+]
+}

@@ -1,0 +1,154 @@
+{
+  "icon": "resources/img/battleCopterIcon.png",
+  "class": "battleCopter",
+  "maxLevel": 100,
+  "upgrades": [
+  {
+    "level": 15,
+    "builderElixir": 2500000,
+    "time": null,
+    "timeInHours": null,
+    "builderHall": 8
+  },
+  {
+    "level": 16,
+    "builderElixir": 2600000,
+    "time": "5d",
+    "timeInHours": 120,
+    "builderHall": 8
+  },
+  {
+    "level": 17,
+    "builderElixir": 2700000,
+    "time": "5d",
+    "timeInHours": 120,
+    "builderHall": 8
+  },
+  {
+    "level": 18,
+    "builderElixir": 2800000,
+    "time": "5d",
+    "timeInHours": 120,
+    "builderHall": 8
+  },
+  {
+    "level": 19,
+    "builderElixir": 2900000,
+    "time": "5d",
+    "timeInHours": 120,
+    "builderHall": 8
+  },
+  {
+    "level": 20,
+    "builderElixir": 3000000,
+    "time": "5d",
+    "timeInHours": 120,
+    "builderHall": 8
+  },
+  {
+    "level": 21,
+    "builderElixir": 3100000,
+    "time": "5d",
+    "timeInHours": 120,
+    "builderHall": 8
+  },
+  {
+    "level": 22,
+    "builderElixir": 3200000,
+    "time": "5d",
+    "timeInHours": 120,
+    "builderHall": 8
+  },
+  {
+    "level": 23,
+    "builderElixir": 3300000,
+    "time": "5d",
+    "timeInHours": 120,
+    "builderHall": 8
+  },
+  {
+    "level": 24,
+    "builderElixir": 3400000,
+    "time": "5d",
+    "timeInHours": 120,
+    "builderHall": 8
+  },
+  {
+    "level": 25,
+    "builderElixir": 3500000,
+    "time": "5d",
+    "timeInHours": 120,
+    "builderHall": 8
+  },
+  {
+    "level": 26,
+    "builderElixir": 3600000,
+    "time": "6d",
+    "timeInHours": 144,
+    "builderHall": 9
+  },
+  {
+    "level": 27,
+    "builderElixir": 3700000,
+    "time": "6d",
+    "timeInHours": 144,
+    "builderHall": 9
+  },
+  {
+    "level": 28,
+    "builderElixir": 3800000,
+    "time": "6d",
+    "timeInHours": 144,
+    "builderHall": 9
+  },
+  {
+    "level": 29,
+    "builderElixir": 3900000,
+    "time": "6d",
+    "timeInHours": 144,
+    "builderHall": 9
+  },
+  {
+    "level": 30,
+    "builderElixir": 4000000,
+    "time": "6d",
+    "timeInHours": 144,
+    "builderHall": 9
+  },
+  {
+    "level": 31,
+    "builderElixir": 4100000,
+    "time": "7d",
+    "timeInHours": 168,
+    "builderHall": 10
+  },
+  {
+    "level": 32,
+    "builderElixir": 4200000,
+    "time": "7d",
+    "timeInHours": 168,
+    "builderHall": 10
+  },
+  {
+    "level": 33,
+    "builderElixir": 4300000,
+    "time": "7d",
+    "timeInHours": 168,
+    "builderHall": 10
+  },
+  {
+    "level": 34,
+    "builderElixir": 4400000,
+    "time": "7d",
+    "timeInHours": 168,
+    "builderHall": 10
+  },
+  {
+    "level": 35,
+    "builderElixir": 4500000,
+    "time": "7d",
+    "timeInHours": 168,
+    "builderHall": 10
+  }
+]
+}

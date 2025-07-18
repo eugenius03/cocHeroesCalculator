@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clash of Clans Upgrade Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1 data-lang-key="appTitle">Clash of Clans Heroes Upgrade Calculator</h1>
+            <p data-lang-key="appSubtitle">Select a Hero to see their upgrade costs and times.</p>
+            <div id="language-switcher">
+                <span data-lang-key="changeLanguage">Language:</span>
+                <button data-lang="en" class="active">EN</button>
+                <button data-lang="uk">UA</button>
+            </div>
+        </header>
+
+        <section id="unit-selection" class="card-container">
+            <!-- Unit cards will be injected here by JavaScript -->
+        </section>
+
+        <main id="calculator-section" class="hidden">
+            <div class="header">
+                <h2 id="unit-name"></h2>
+                <div class="controls">
+                    <div id="level-selection">
+                        <label for="current-level-input" data-lang-key="fromLevel">From Level:</label>
+                        <input type="number" id="current-level-input" min="1">
+                        <label for="desired-level-input" data-lang-key="toLevel">To Level:</label>
+                        <input type="number" id="desired-level-input">
+                    </div>
+                    <div class="discount">
+                        <input type="checkbox" id="discount-checkbox">
+                        <label for="discount-checkbox" data-lang-key="goldPassDiscount">Apply 20% Gold Pass Discount</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="table-container">
+                    <table id="upgrade-table">
+                        <thead>
+                            <tr>
+                                <th data-lang-key="level">Level</th>
+                                <th data-lang-key="upgradeCost">Upgrade Cost</th>
+                                <th data-lang-key="upgradeTime">Upgrade Time</th>
+                                <th data-lang-key="heroHallLevel">Hero Hall Level</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Table rows will be injected here -->
+                        </tbody>
+                    </table>
+                </div>
+                <div id="summary" class="summary-card">
+                    <h3 id="summary-title" data-lang-key="totalForSelectedLevels">Total for Selected Levels</h3>
+                    <div id="summary-content">
+                         <!-- Summary details will be injected here -->
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
